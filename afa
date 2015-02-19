@@ -1,0 +1,45 @@
+[33mcommit 1db558bd60b9d8a50abfe621f45d35adb220f7d0[m
+Author: DClaudio <david_claudio_t@yahoo.com>
+Date:   Thu Feb 19 12:41:25 2015 +0000
+
+    added destroy method for article
+
+[33mcommit 391c82a364c37fd6ec0d03589ef44194bc937301[m
+Author: DClaudio <david_claudio_t@yahoo.com>
+Date:   Thu Feb 19 12:27:19 2015 +0000
+
+    finished article functionality
+
+[33mcommit 836d6a7a01df34b8d05efbd59eb645a5f294f008[m
+Author: DClaudio <david_claudio_t@yahoo.com>
+Date:   Thu Feb 19 11:35:12 2015 +0000
+
+    articles functionality
+
+[33mcommit 24f2da5781c717fe1422a1f4f74ab76ea738eade[m
+Author: DClaudio <david_claudio_t@yahoo.com>
+Date:   Wed Feb 18 17:30:43 2015 +0000
+
+    articles controller
+
+[33mcommit aed4281f30adadcd646ca96b72700b0532c546ec[m
+Merge: 8f58e90 e211300
+Author: DClaudio <david_claudio_t@yahoo.com>
+Date:   Wed Feb 18 17:23:14 2015 +0000
+
+    Merge branch 'master' of https://github.com/DClaudio/firstRailsApp
+    
+    Conflicts:
+    	.gitignore
+
+[33mcommit 8f58e9090954495456d70a05247e3aed607f3e55[m
+Author: DClaudio <david_claudio_t@yahoo.com>
+Date:   Wed Feb 18 17:18:04 2015 +0000
+
+    first commit
+
+[33mcommit e211300190dac55be603bfde80540e3c3fc8d147[m
+Author: Claudio David <david_claudio_t@yahoo.com>
+Date:   Wed Feb 18 17:15:04 2015 +0000
+
+    Initial commit

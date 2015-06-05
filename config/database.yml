@@ -17,11 +17,14 @@ postgresql: &postgresql
   reconnect: false
 
 
-development:
+default: &default
   adapter: sqlite3
   pool: 5
   timeout: 5000
   database: db/development.sqlite3
+  
+development:
+  <<: *default
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

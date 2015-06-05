@@ -5,12 +5,16 @@
 #   gem 'sqlite3'
 #
 default: &default
+    adapter: postgresql
+    encoding: unicode
+    database: rubyrails
+    username: admin3zn1q7y
+    password: eLYnWKh8r3UP
+
+development:
   adapter: sqlite3
   pool: 5
   timeout: 5000
-
-development:
-  <<: *default
   database: db/development.sqlite3
 
 # Warning: The database defined as "test" will be erased and
@@ -18,11 +22,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: db/test.sqlite3
-
+  
 production:
-    adapter: postgresql
-    encoding: unicode
-    database: rubyrails
-    username: admin3zn1q7y
-    password: eLYnWKh8r3UP
+    
+  <<: *default

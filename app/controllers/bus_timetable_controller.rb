@@ -1,0 +1,3 @@
+class BusTimetableController < ApplicationController
+
+end

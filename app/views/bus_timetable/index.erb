@@ -1,19 +1,24 @@
 <h1>Listing Bus Arrivals</h1>
 <table>
     <tr>
+        <th>Number</th>
         <th>Bus Route</th>
         <th>Destination</th>
         <th>Time to Station</th>
     </tr>
 
     <tbody id="arrivals-body">
-        <% @arrivals.each do |arrival| %>
+        <% @arrivals.each_with_index do |arrival, index| %>
             <tr>
+                <td><%= index %></td>
                 <td><%= arrival.route %></td>
                 <td><%= arrival.destination %></td>
                 <td><%= arrival.timeToStation %></td>
             </tr>
         <%end %>
     </tbody>
+
+    <button id="update-arrivals">Update Arrivals</button>
+
 
 </table>

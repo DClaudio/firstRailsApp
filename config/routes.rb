@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
   get 'bus-timetable', to: 'bus_timetable#index'
 
+  get 'bus-timetable/arrivals', to: 'bus_timetable#getJsonData'
+
   get 'welcome/index'
   root 'welcome#index'
 

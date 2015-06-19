@@ -4,6 +4,8 @@ Rails.application.routes.draw do
     resources :comments
   end
 
+  get 'bus-timetable', to: 'bus_timetable#index'
+
   get 'welcome/index'
   root 'welcome#index'
 
